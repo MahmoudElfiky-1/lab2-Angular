@@ -2,7 +2,7 @@
   <div class="container">
 
     <!-- Logo / Brand Name -->
-    <a class="navbar-brand fw-bold fs-4" href="#">
+    <a class="navbar-brand fw-bold fs-4" routerLink="/home">
       <span class="text-warning">🛒 ShopZone</span>
     </a>
 
@@ -24,29 +24,36 @@
       <ul class="navbar-nav ms-auto gap-2">
 
         <li class="nav-item">
-          <a class="nav-link active fw-semibold" href="#">
+          <a
+            class="nav-link fw-semibold"
+            routerLink="/home"
+            routerLinkActive="active"
+          >
             🏠 Home
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link fw-semibold" href="#">
+          <a
+            class="nav-link fw-semibold"
+            routerLink="/products"
+            routerLinkActive="active"
+          >
             📦 Products
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link fw-semibold" href="#">
+          <a
+            class="nav-link fw-semibold"
+            routerLink="/contact"
+            routerLinkActive="active"
+          >
             📞 Contact
           </a>
         </li>
 
       </ul>
-
-      <!-- Cart Button -->
-      <button class="btn btn-warning ms-3 fw-bold">
-        🛒 Cart <span class="badge bg-dark ms-1">0</span>
-      </button>
 
     </div>
   </div>

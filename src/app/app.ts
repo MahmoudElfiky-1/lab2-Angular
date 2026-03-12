@@ -4,10 +4,11 @@ import { Footer } from "./components/footer/footer";
 import { Navbar } from "./components/navbar/navbar";
 import { Products } from "./components/products/products";
 import { Slider } from "./components/slider/slider";
+import { Contact } from "./components/contact/contact";
 
 @Component({
   selector: 'app-root',
-  imports: [Footer, Navbar, Products, Slider],
+  imports: [RouterOutlet, Footer, Navbar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
